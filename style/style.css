@@ -1,7 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.banner-container {
+  width: 1128px;
+  height: 494px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.banner-container .left-content {
+  width: 503px;
+  height: 315px;
+  /* border: 1px solid red; */
+  margin-top: 179px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-primary {
+  color: #ffad5a;
+}
+
+.left-content .left-line {
+  width: 4px;
+  height: 124px;
+  border-radius: 5px;
+  background: rgb(255, 89, 89);
+}
+
+.left-text .left-title {
+  font-family: "Yeseva One", serif;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.right-content {
+  width: 426px;
+  height: 623px;
+  margin-top: 197px;
+}
+
+.right-content img {
+  width: 360px;
+  height: 426px;
+  margin-left: 179px;
+  margin-bottom: 80px;
+}
+
+.left-desc {
+  font-family: "Manrope";
+  font-weight: 400;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.ex-btn {
+  width: 172px;
+  height: 48px;
+  border-radius: 5px;
+  background: rgb(255, 89, 89);
+  padding: 10px;
+  margin-top: 19px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border: none;
+}
+
+.scroll-text {
+  margin-top: 19px;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
 }
