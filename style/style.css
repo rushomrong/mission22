@@ -104,6 +104,19 @@
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.after-mission::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-image: url("../images/shapes/eclips.png");
+  background-size: contain;
+  margin-left: 590px;
+  margin-top: -46px;
+  z-index: 0;
 }
 
 .inner-three-card {
