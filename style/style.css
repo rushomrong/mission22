@@ -98,7 +98,7 @@
 .my-mission {
   width: 1128px;
   height: 494px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -116,7 +116,7 @@
   width: 360px;
   height: 376px;
   margin-top: 48px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   border-radius: 26px;
   background: rgba(79, 157, 166, 0.1);
@@ -134,7 +134,7 @@
   width: 360px;
   height: 376px;
   margin-top: 48px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   border-radius: 26px;
   background: rgba(255, 89, 89, 0.1);
@@ -150,7 +150,7 @@
   width: 360px;
   height: 376px;
   margin-top: 48px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
   border-radius: 26px;
   background: rgb(255, 244, 214);
@@ -168,4 +168,55 @@
   font-weight: 700;
   color: #13103a;
   text-align: center;
+}
+
+.mission-card-title {
+  font-family: "Manrope";
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  text-align: left;
+}
+
+.mission-desc {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.visson-title {
+  font-family: "Manrope";
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  text-align: left;
+}
+
+.vission-desc {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  color: #000000;
+  text-align: left;
+}
+
+.goal-title {
+  font-family: "Manrope";
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  text-align: left;
+}
+
+.goal-desc {
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+  color: #000000;
+  text-align: left;
 }
