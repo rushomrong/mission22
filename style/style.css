@@ -220,3 +220,46 @@
   color: #000000;
   text-align: left;
 }
+
+/* develop container style */
+.develop-container {
+  width: 1128px;
+  height: 700px;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 86px;
+  flex-direction: column;
+}
+
+.content {
+  position: relative;
+  display: flex;
+}
+.left-content {
+  position: relative;
+  z-index: 2;
+}
+
+.left-content img {
+  width: 400px;
+  height: 400px;
+}
+
+.content .shape {
+  width: 227px;
+  height: 227px;
+  position: absolute;
+  top: 54px;
+}
+
+.shape::before {
+  content: "";
+  position: absolute;
+  width: 227px;
+  height: 227px;
+  background-image: url(../images/shapes/shape-1.png);
+  margin-left: -94px;
+  background-size: contain;
+  z-index: 0;
+}
