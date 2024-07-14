@@ -455,7 +455,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
 
@@ -472,10 +472,47 @@
   margin-right: 168px;
 }
 
+.right-app-text {
+  margin-top: 70px;
+}
+
 .corona-inner {
   display: flex;
   justify-content: space-between;
   margin-top: 141px;
   margin-left: 156px;
-  margin-right: 156px;
+}
+
+.corona-app .app-title {
+  font-family: "Manrope";
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 84px;
+  text-align: center;
+}
+
+.gocorona-title {
+  font-family: "Manrope";
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.gocorona-desc {
+  font-family: "Manrope";
+  font-size: 1.12rem;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.btn-app {
+  margin-top: 16px;
+  width: 157px;
+  height: 48px;
+  border-radius: 5px;
+  background: rgb(255, 89, 89);
+  font-family: "Manrope";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  border: none;
 }
