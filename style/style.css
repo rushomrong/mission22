@@ -1,8 +1,14 @@
+/* font-family : Manrope */
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
 
+/* font-family : Yeseva One */
 @import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
 
+/* font-family : Lobster */
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* font-family : Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   margin: 0;
@@ -178,7 +184,7 @@
 }
 
 .my-mission .mission-title {
-  font-family: "Manrope";
+  font-family: "Poppins";
   font-size: 48px;
   font-weight: 700;
   color: #13103a;
@@ -186,7 +192,7 @@
 }
 
 .mission-card-title {
-  font-family: "Manrope";
+  font-family: "Poppins";
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -202,8 +208,8 @@
   text-align: left;
 }
 
-.visson-title {
-  font-family: "Manrope";
+.vission-title {
+  font-family: "Poppins";
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -220,7 +226,7 @@
 }
 
 .goal-title {
-  font-family: "Manrope";
+  font-family: "Poppins";
   font-size: 24px;
   font-weight: 600;
   color: #000000;
@@ -292,7 +298,7 @@
 }
 
 .dev-right-content .dev-content-title {
-  font-family: "Manrope";
+  font-family: "Poppins";
   font-size: 36px;
   font-weight: 700;
   text-align: left;
@@ -338,9 +344,9 @@
   margin-top: -53px;
 }
 
-/* goal container style */
+/* global container style */
 
-.goal-container {
+.global-container {
   width: 1128px;
   height: 403px;
   /* border: 1px solid red; */
@@ -352,29 +358,29 @@
   margin-bottom: 208px;
 }
 
-.goal-content {
+.global-content {
   position: relative;
   display: flex;
 }
 
-.goal-right-content {
+.global-right-content {
   position: relative;
   z-index: 2;
 }
 
-.goal-right-content img {
+.global-right-content img {
   width: 400px;
   height: 400px;
 }
 
-.goal-content .goal-shape {
+.global-content .global-shape {
   width: 227px;
   height: 227px;
   position: absolute;
   top: 54px;
 }
 
-.goal-shape::after {
+.global-shape::after {
   content: "";
   position: absolute;
   width: 227px;
@@ -386,7 +392,7 @@
   z-index: 0;
 }
 
-.goal-right-content {
+.global-right-content {
   max-width: 654px;
   height: 311px;
   margin-top: 45px;
@@ -397,15 +403,15 @@
   margin-left: 72px;
 }
 
-.goal-right-content .goal-content-title {
-  font-family: "Manrope";
+/* .global-right-content .global-content-title {
+  font-family: "Poppins";
   font-size: 36px;
   font-weight: 700;
   text-align: left;
   margin-bottom: 17px;
-}
+} */
 
-.goal-desc {
+.global-desc {
   font-family: "Manrope";
   font-size: 18px;
   font-weight: 400;
@@ -413,7 +419,7 @@
   text-align: left;
 }
 
-.goal-left-content .btn-red-documentation {
+.global-left-content .btn-red-documentation {
   width: 243px;
   height: 48px;
   border-radius: 5px;
@@ -425,22 +431,22 @@
   color: #fff;
 }
 
-.goal-content .goal-shape {
+.global-content .global-shape {
   width: 150px;
   height: 150px;
   position: absolute;
   top: 54px;
 }
 
-.goal-left-content .goal-left-title {
-  font-family: "Manrope";
+.global-left-content .global-left-title {
+  font-family: "Poppins";
   font-size: 36px;
   font-weight: 700;
   text-align: left;
   margin-top: 49px;
 }
 
-.goal-desc {
+.global-desc {
   font-family: "Manrope";
   font-size: 18px;
   font-weight: 400;
@@ -486,7 +492,7 @@
 }
 
 .corona-app .app-title {
-  font-family: "Manrope";
+  font-family: "Poppins";
   font-size: 3rem;
   font-weight: 700;
   margin-top: 84px;
@@ -494,7 +500,7 @@
 }
 
 .gocorona-title {
-  font-family: "Manrope";
+  font-family: "Poppins";
   font-size: 3rem;
   font-weight: 700;
 }
