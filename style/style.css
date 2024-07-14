@@ -45,7 +45,7 @@
 
 .left-text .left-title {
   font-family: "Yeseva One", serif;
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 700;
   margin-bottom: 18px;
   margin-left: 13px;
@@ -67,7 +67,7 @@
 .left-text .left-desc {
   font-family: "Manrope";
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.12rem;
   font-weight: 400;
   margin-top: 16px;
 }
@@ -266,7 +266,7 @@
 }
 
 .dev-right-content {
-  width: 654px;
+  max-width: 654px;
   height: 311px;
   margin-top: 45px;
   display: flex;
@@ -321,4 +321,113 @@
   margin-left: -170px;
   z-index: 0;
   margin-top: -53px;
+}
+
+/* goal container style */
+
+.goal-container {
+  width: 1128px;
+  height: 403px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  display: flex;
+  margin-top: 149px;
+  flex-direction: column;
+  position: relative;
+}
+
+.goal-content {
+  position: relative;
+  display: flex;
+}
+
+.goal-right-content {
+  position: relative;
+  z-index: 2;
+}
+
+.goal-right-content img {
+  width: 400px;
+  height: 400px;
+}
+
+.goal-content .goal-shape {
+  width: 227px;
+  height: 227px;
+  position: absolute;
+  top: 54px;
+}
+
+.goal-shape::after {
+  content: "";
+  position: absolute;
+  width: 227px;
+  height: 227px;
+  background-image: url("../images/shapes/shape-1.png");
+  margin-left: 1010px;
+  margin-top: -74px;
+  background-size: contain;
+  z-index: 0;
+}
+
+.goal-right-content {
+  max-width: 654px;
+  height: 311px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 72px;
+}
+
+.goal-right-content .goal-content-title {
+  font-family: "Manrope";
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 17px;
+}
+
+.goal-desc {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+.goal-left-content .btn-red-documentation {
+  width: 243px;
+  height: 48px;
+  border-radius: 5px;
+  background: rgb(255, 89, 89);
+  border: none;
+  font-family: "Manrope";
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.goal-content .goal-shape {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 54px;
+}
+
+.goal-left-content .goal-left-title {
+  font-family: "Manrope";
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 49px;
+}
+
+.goal-desc {
+  font-family: "Manrope";
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  text-align: left;
 }
