@@ -347,6 +347,7 @@
   margin-top: 149px;
   flex-direction: column;
   position: relative;
+  margin-bottom: 208px;
 }
 
 .goal-content {
@@ -443,4 +444,38 @@
   font-weight: 400;
   margin-bottom: 18px;
   text-align: left;
+}
+
+/* corona application syle */
+.corona-app {
+  width: 1128px;
+  height: 700px;
+  /* margin-top: 208px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.corona-app .left-app-img {
+  width: 338px;
+  height: 542px;
+}
+
+.left-app-img img {
+  width: 229px;
+  height: 459px;
+  border-radius: 16px;
+  box-shadow: 2px 4px 32px 0px rgba(0, 0, 0, 0.12);
+  margin-right: 168px;
+}
+
+.corona-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 141px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
