@@ -8,14 +8,18 @@
   box-sizing: border-box;
 }
 
+/* banner section style */
+
 .banner-container {
   width: 1128px;
   height: 494px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   /* border: 1px solid red; */
+  position: relative;
+  margin-bottom: 62px;
 }
 
 .banner-container .left-content {
@@ -31,11 +35,12 @@
   color: #ffad5a;
 }
 
-.left-content .left-line {
+.left-text .left-line {
   width: 4px;
   height: 124px;
   border-radius: 5px;
   background: rgb(255, 89, 89);
+  position: absolute;
 }
 
 .left-text .left-title {
@@ -43,6 +48,8 @@
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 18px;
+  margin-left: 13px;
+  margin-top: -5px;
 }
 .right-content {
   width: 426px;
@@ -51,13 +58,13 @@
 }
 
 .right-content img {
-  width: 360px;
-  height: 426px;
-  margin-left: 179px;
+  width: 380px;
+  height: 476px;
+  margin-left: 70px;
   margin-bottom: 80px;
 }
 
-.left-desc {
+.left-text .left-desc {
   font-family: "Manrope";
   font-weight: 400;
   font-size: 18px;
@@ -84,4 +91,81 @@
   font-family: "Manrope";
   font-size: 16px;
   font-weight: 400;
+}
+
+/* my mission 2022 style */
+
+.my-mission {
+  width: 1128px;
+  height: 494px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-three-card {
+  width: 1128px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission-card {
+  width: 360px;
+  height: 376px;
+  margin-top: 48px;
+  border: 1px solid red;
+  display: flex;
+  border-radius: 26px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mission-card img {
+  width: 126px;
+  height: 126px;
+}
+
+.vission-card {
+  width: 360px;
+  height: 376px;
+  margin-top: 48px;
+  border: 1px solid red;
+  display: flex;
+  border-radius: 26px;
+  background: rgba(255, 89, 89, 0.1);
+  padding: 24px;
+}
+
+.vission-card img {
+  width: 126px;
+  height: 126px;
+}
+
+.goal-card {
+  width: 360px;
+  height: 376px;
+  margin-top: 48px;
+  border: 1px solid red;
+  display: flex;
+  border-radius: 26px;
+  background: rgb(255, 244, 214);
+  padding: 24px;
+}
+
+.goal-card img {
+  width: 126px;
+  height: 126px;
+}
+
+.my-mission .mission-title {
+  font-family: "Manrope";
+  font-size: 48px;
+  font-weight: 700;
+  color: #13103a;
+  text-align: center;
 }
