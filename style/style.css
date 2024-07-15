@@ -88,7 +88,7 @@
   padding: 10px;
   margin-top: 19px;
   font-family: "Manrope";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: #fff;
   border: none;
@@ -97,7 +97,7 @@
 .scroll-text {
   margin-top: 19px;
   font-family: "Manrope";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
 }
 
@@ -185,7 +185,7 @@
 
 .my-mission .mission-title {
   font-family: "Poppins";
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   color: #13103a;
   text-align: center;
@@ -193,7 +193,7 @@
 
 .mission-card-title {
   font-family: "Poppins";
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #000000;
   text-align: left;
@@ -201,7 +201,7 @@
 
 .mission-desc {
   font-family: "Manrope";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   margin-top: 16px;
   color: #000000;
@@ -210,7 +210,7 @@
 
 .vission-title {
   font-family: "Poppins";
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #000000;
   text-align: left;
@@ -227,7 +227,7 @@
 
 .goal-title {
   font-family: "Poppins";
-  font-size: 24px;
+  font-size: 1.25rem;
   font-weight: 600;
   color: #000000;
   text-align: left;
@@ -235,7 +235,7 @@
 
 .goal-desc {
   font-family: "Manrope";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   margin-top: 16px;
   color: #000000;
@@ -299,7 +299,7 @@
 
 .dev-right-content .dev-content-title {
   font-family: "Poppins";
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   text-align: left;
   margin-bottom: 17px;
@@ -307,7 +307,7 @@
 
 .dev-desc {
   font-family: "Manrope";
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 400;
   margin-bottom: 18px;
   text-align: left;
@@ -426,7 +426,7 @@
   background: rgb(255, 89, 89);
   border: none;
   font-family: "Manrope";
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   color: #fff;
 }
@@ -440,7 +440,7 @@
 
 .global-left-content .global-left-title {
   font-family: "Poppins";
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   text-align: left;
   margin-top: 49px;
