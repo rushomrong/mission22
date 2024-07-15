@@ -19,7 +19,7 @@
 /* banner section style */
 
 .banner-container {
-  width: 1128px;
+  width: 59%;
   height: 494px;
   margin: 0 auto;
   display: flex;
@@ -598,3 +598,5 @@ footer .mission-footer {
   font-weight: 200;
   color: #d9dbe1;
 }
+
+/* Responsive styles */
